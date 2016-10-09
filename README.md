@@ -5,7 +5,7 @@ fizz buzz inspired this simple python script_
  
 #### The rules
 
-The function fizz_buzz does the returns a value based on the following rules:
+The function fizz_buzz returns a value based on the following rules:
 * ```Fizz``` if the argument is divisible by 3 only
 * ```Buzz``` if the argument id divisible by 5 only
 * ```FizzBuzz``` if the argument is divisible by both 3 and 5
