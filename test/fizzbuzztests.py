@@ -15,6 +15,12 @@ class FizzBuzzOutcomes(unittest.TestCase):
         """
         self.assertEqual('Buzz', fizzbuzz(100))
 
+    def test_fizzbuzz_returns_correct_fizzbuzz(self):
+        """
+        Fizzbuzz should return FizzBuzz if the arg is divisible by both 3 and 5 only
+        """
+        self.assertEqual('FizzBuzz', fizzbuzz(15))
+
 
 if __name__ == '__main__':
     unittest.main()
